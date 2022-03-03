@@ -133,3 +133,9 @@ details summary{
 
     
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color:#8bbed1;
+    }
+}
