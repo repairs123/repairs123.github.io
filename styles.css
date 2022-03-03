@@ -2,6 +2,11 @@ body{ background-color: #C8E0FE;
 
 }
 
+details summary{
+    list-style-type: none;
+}
+
+
 .service{
     position: relative;
     text-align: justify;
@@ -24,13 +29,21 @@ body{ background-color: #C8E0FE;
 .text{
     font-size: 2em;
     position:relative;    
-    left: 2em;
-    top: -4em;
-
 }
 
 
-.text a{
-    color: #951eff;
-    text-decoration: none;
+.text p{
+    color: burlywood;
+}
+
+.list{
+    position:inherit;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list span{
+    color:#0fc0a8;
 }
