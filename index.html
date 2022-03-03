@@ -1,15 +1,18 @@
-<!-- 1.add prices and details(done) 2. add contact me buttons 3. fix for mobile 4.remake the pictures 5. add icons-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Repairs by P0W3RBR0K3N</title>
+    <link rel="icon" href="images/logo.png" type="image/icon type">
     <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
+    <div id="logo">
+        <img src="images/PB.png" alt="logo">
+    </div>
     <div id="container">
         <div class="service">
             <details>
@@ -18,16 +21,15 @@
                         <img src="images/PC.png">
                     </div>
                     <div class="text">
-                        <p>επισκευή PC</p>
+                        <p>Επισκευή PC</p>
                     </div>
                 </summary>
                 <div class="list">
                     <ul>
-                        <li><span>αλλαγή OS: 20€</span></li>
-                        <li><span>επισκευή στη μητρική: 25€</span></li>
-                        <li><span>set up(προγράμματα κλπ...): 10€</span></li>
-                        <li><span>αλλαγή οθόνης: 25€</span></li>
-                        <li><span>αλλαγή μπαταρίας 20€</span></li>
+                        <li id="os"><span>Αλλαγή OS: 20€</span></li>
+                        <li id="mobo"><span>Επισκευή στη μητρική: 25€</span></li>
+                        <li id="sware"><span>Set up(προγράμματα κλπ...): 10€</span></li>
+                        <li id="clean"><span>Καθαρισμός: 20€</span></li>
                     </ul>
             </div>
             </details>
@@ -39,17 +41,17 @@
                         <img src="images/laptop.png">
                     </div>
                     <div class="text">
-                        <p>επισκευή laptop</p>
+                        <p>Επισκευή laptop</p>
                     </div>
                 </summary>
                 <div class="list">
                     <ul>
-                        <li><span>format: 15€</span></li>
-                        <li><span>καθαρισμός: 20€</span></li>
-                        <li><span>επισκευή στη μητρική: 25€</span></li>
-                        <li><span>set up(drivers, προγράμματα κλπ...): 10€</span></li>
-                        <li><span>αλλαγή οθόνης: 25€</span></li>
-                        <li><span>αλλαγή πληκτρολογίου/mousepad: 20€</span></li>
+                        <li id="os"><span>Format: 15€</span></li>
+                        <li id="clean"><span>Καθαρισμός: 20€</span></li>
+                        <li id="mobo"><span>Επισκευή στη μητρική: 25€</span></li>
+                        <li id="sware"><span>Set up(drivers, προγράμματα κλπ...): 10€</span></li>
+                        <li id="monitor"><span>Αλλαγή οθόνης: 25€</span></li>
+                        <li id="keyboard"><span>Αλλαγή πληκτρολογίου/mousepad: 20€</span></li>
                     </ul>
                 </div>
             </details>
@@ -61,19 +63,28 @@
                         <img src="images/phone.png">
                     </div>
                     <div class="text">
-                        <p>επισκευή<br/>smartphone</p>
+                        <p>Επισκευή<br/>smartphone</p>
                     </div>
                 </summary>
                 <div class="list">
                     <ul>
-                        <li><span>αλλαγή ROM: 20€</span></li>
-                        <li><span>επισκευή στη μητρική: 25€</span></li>
-                        <li><span>set up(προγράμματα κλπ...): 10€</span></li>
-                        <li><span>αλλαγή οθόνης: 25€</span></li>
-                        <li><span>αλλαγή μπαταρίας 20€</span></li>
+                        <li id="os"><span>Αλλαγή ROM: 20€</span></li>
+                        <li id="os"><span>Root: 15€</span></li>
+                        <li id="mobo"><span>Επισκευή στη μητρική: 25€</span></li>
+                        <li id="sware"><span>Set up(προγράμματα κλπ...): 10€</span></li>
+                        <li id="monitor"><span>Αλλαγή οθόνης: 25€</span></li>
+                        <li id="battery"><span>Αλλαγή μπαταρίας 20€</span></li>
                     </ul>
                 </div>
             </details>
+        </div>
+        <div id="contacts">
+            <div id="contact-text">
+                <h3>Επικοινωνία</h3>
+            </div>
+            <div class="email">
+                <a href="mailto:pkpaulosk@gmail.com?Subject=Θέμα%20συσκευής"><input type="image" id="email-image" src="images/email.png"></a>
+            </div>
         </div>
     </div>
 </body>
