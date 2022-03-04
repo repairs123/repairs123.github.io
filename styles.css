@@ -10,15 +10,15 @@ details summary{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 24%;
-    height: 36%em;
+    width: 10%;
+    height: 10%;
 }
 
 .service{
     position: relative;
     text-align: justify;
     float: left;
-    opacity: 10%;
+    opacity: 30%;
     transition: 1s;
 }
 
@@ -94,8 +94,8 @@ details summary{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
-        height: 32%;
+        width: 15%;
+        height: 15%;
     }
     
     .service{
