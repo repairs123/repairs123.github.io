@@ -89,6 +89,10 @@ details summary{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.ps p{
+    font-size: small;
+}
+
 @media only screen and (max-width: 1080px) {
     #logo img{
         display: block;
@@ -130,8 +134,9 @@ details summary{
         color:#0fc0a8;
     }
 
-
-    
+    .ps p{
+        font-size: x-small;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
