@@ -10,16 +10,26 @@ details summary{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
-    height: 10%;
+    width: 24%;
+    height: 36%;
+}
+
+#intro{
+    text-align: center;
+}
+
+.info{
+    margin: 10%;
+    text-indent: 1%;
 }
 
 .service{
     position: relative;
     text-align: justify;
     float: left;
-    opacity: 30%;
+    opacity: 10%;
     transition: 1s;
+    margin: 10%;
 }
 
 .service:hover{
@@ -76,6 +86,87 @@ details summary{
     list-style-image: url(images/software.png)
 }
 
+#content_list{
+    margin: 10%;
+    width: 50%;
+    padding: 10px;
+}
+
+#rep{
+    list-style-image: url(images/repair.png);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#rep a{
+   text-decoration: none;
+   font-size: xx-large;
+}
+
+#sell{
+    list-style-image: url(images/trade.png);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#sell a{
+   text-decoration: none;
+   font-size: xx-large;
+}
+
+#trash{
+    list-style-image: url(images/recycle.png);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#trash a{
+   text-decoration: none;
+   font-size: xx-large;
+}
+
+.menulinks{
+    position: relative;
+    float:right;
+    top: 0%;
+}
+
+.menu{
+    list-style-image: url(images/menu.png);
+}
+
+#s_menu{
+    list-style-image: url(images/home.png);
+}
+
+#s_menu a{
+    text-decoration: none;
+ }
+
+#buy{
+    list-style-image: url(images/trade_small.png);
+}
+
+#buy a{
+    text-decoration: none;
+ }
+
+#rec{
+    list-style-image: url(images/recycle_small.png);
+}
+
+#rec a{
+    text-decoration: none;
+ }
+
+#repair{
+    list-style-image: url(images/repair_small.png);
+}
+
+#repair a{
+    text-decoration: none;
+}
+
 #contacts{
     bottom: 0%;
     position: fixed;
@@ -89,17 +180,13 @@ details summary{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.ps p{
-    font-size: small;
-}
-
 @media only screen and (max-width: 1080px) {
     #logo img{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 15%;
-        height: 15%;
+        width: 30%;
+        height: 32%;
     }
     
     .service{
@@ -134,13 +221,30 @@ details summary{
         color:#0fc0a8;
     }
 
-    .ps p{
+    #intro{
         font-size: x-small;
     }
-}
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color:#8bbed1;
+    .info{
+        margin: 5%;
+        font-size: small;
     }
+
+    #content_list{
+        margin: 0%;
+        padding: 0%;
+        padding-left: 20%;
+    }
+
+    #rep a{
+        font-size: medium;
+     }
+
+     #sell a{
+        font-size: medium;
+     }
+
+     #trash a{
+        font-size: medium;
+     }
 }
