@@ -16,11 +16,13 @@ details summary{
 
 #intro{
     text-align: center;
+    color: #567c77;
 }
 
 .info{
     margin: 10%;
     text-indent: 1%;
+    color: #93523b;
 }
 
 .service{
@@ -29,13 +31,22 @@ details summary{
     float: left;
     opacity: 10%;
     transition: 1s;
-    margin: 10%;
+    margin: 5%;
 }
 
 .service:hover{
     opacity: 100%;
     transition: 0.5s;
 }
+
+.notice{
+    position: relative;
+    text-align: justify;
+    float: left;
+    margin-top: 5%;
+    margin-right: 50%
+}
+
 .image img{
     position:relative;
     left:auto;
@@ -196,6 +207,7 @@ details summary{
         opacity: 10%;
         transition: 1s;
     }
+
     
     .image img{
         position:relative;
@@ -246,5 +258,9 @@ details summary{
 
      #trash a{
         font-size: medium;
+     }
+
+     .notice{
+	font-size: small;
      }
 }
