@@ -6,6 +6,17 @@ details summary{
     list-style-type: none;
 }
 
+.start{
+    position: relative;
+    float: left;
+    top: 0%;
+}
+
+.start img{
+   width: 70%;
+   height: 70%
+}
+
 #logo img{
     display: block;
     margin-left: auto;
@@ -17,6 +28,7 @@ details summary{
 #intro{
     text-align: center;
     color: #567c77;
+    margin-right: 10%;
 }
 
 .info{
@@ -191,7 +203,7 @@ details summary{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 720px) {
     #logo img{
         display: block;
         margin-left: auto;
@@ -235,6 +247,7 @@ details summary{
 
     #intro{
         font-size: x-small;
+	margin-right: 25%;
     }
 
     .info{
@@ -262,5 +275,10 @@ details summary{
 
      .notice{
 	font-size: small;
+     }
+
+    .start img{
+       width: 30%;
+       height: 30%
      }
 }
