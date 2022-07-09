@@ -1,5 +1,5 @@
-body{ background-color: #C8E0FE;
-
+body{ 
+    background-color: #C8E0FE;
 }
 
 .langs{
@@ -304,4 +304,12 @@ details summary{
        width: 30%;
        height: 30%
      }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body{ 
+        background-color: #393939;
+    }
+
 }
